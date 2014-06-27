@@ -57,7 +57,7 @@
                         <phase>process-resources</phase>
                         <goals><goal>download-single</goal></goals>
                         <configuration>
-                            <url>https://github.com/epeli/underscore.string/raw/v${upstreamVersion}/dist</url>
+                            <url>https://github.com/epeli/underscore.string/raw/${upstreamVersion}/dist</url>
                             <fromFile>underscore.string.min.js</fromFile>
                             <toDir>${destinationDir}</toDir>
                         </configuration>
@@ -67,7 +67,7 @@
                         <phase>process-resources</phase>
                         <goals><goal>download-single</goal></goals>
                         <configuration>
-                            <url>https://github.com/epeli/underscore.string/raw/v${upstreamVersion}/lib</url>
+                            <url>https://github.com/epeli/underscore.string/raw/${upstreamVersion}/lib</url>
                             <fromFile>underscore.string.js</fromFile>
                             <toDir>${destinationDir}</toDir>
                         </configuration>

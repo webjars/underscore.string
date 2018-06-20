@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>underscore.string</artifactId>
-    <version>2.3.4-SNAPSHOT</version>
+    <version>3.2.1-SNAPSHOT</version>
     <name>Underscore.string</name>
     <description>WebJar for Underscore.string</description>
     <url>http://webjars.org</url>

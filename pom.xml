@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>underscore.string</artifactId>
-    <version>3.2.2-SNAPSHOT</version>
+    <version>3.2.1-1-SNAPSHOT</version>
     <name>Underscore.string</name>
     <description>WebJar for Underscore.string</description>
     <url>http://webjars.org</url>
@@ -67,7 +67,7 @@
                         <phase>process-resources</phase>
                         <goals><goal>download-single</goal></goals>
                         <configuration>
-                            <url>https://github.com/epeli/underscore.string/raw/${upstreamVersion}/lib</url>
+                            <url>https://github.com/epeli/underscore.string/raw/${upstreamVersion}/dist</url>
                             <fromFile>underscore.string.js</fromFile>
                             <toDir>${destinationDir}</toDir>
                         </configuration>
